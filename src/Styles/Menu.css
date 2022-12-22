@@ -1,0 +1,20 @@
+.button-container {
+  text-align: center;
+  padding-top: 0.5em;
+}
+
+.button {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: rgba(255, 255, 255, 0.75);
+  padding: 1em;
+  margin: 0.1em;
+  border: none;
+}
+
+.button:disabled {
+  color: grey;
+}
+
+.button:enabled {
+  cursor: pointer;
+}
